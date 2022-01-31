@@ -1,13 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0 !important;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffffff !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ant-menu-item-selected {
+	background-color: #ff0000 !important;
+}
+
+.ant-tabs-nav {
+	margin-left: auto !important;
+}
+
+.ant-input-group-addon {
+	border-top-width: 0;
+	border-left-width: 0;
+	background-color: inherit;
+}
+
+.ant-input-borderless {
+	border: 1px solid #d9d9d9 !important;
+	border-top-width: 0 !important;
+	border-left-width: 0 !important;
+	border-right-width: 0 !important;
+}
+
+.ant-input:focus {
+	border-right-width: 0px !important;
+}
+
+.ant-page-header-footer {
+	margin-top: 0px !important;
+}
+.ant-list-item-meta-title {
+	margin-bottom: 0px !important;
+}
+
+.ant-list-item-meta-avatar {
+	margin-top: 3%;
+}
+
+.ant-tabs-tab {
+	font-size: 12px !important;
+}
+
+.ant-tabs-tab:hover {
+	color: #ffa6a6 !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+	color: #ff0000 !important;
+	font-weight: 500;
+}
+
+.ant-tabs-ink-bar {
+	position: absolute;
+	background: #ff0000;
+	pointer-events: none;
+}
+
+.ant-page-header-content {
+	padding-top: 0 !important;
 }
